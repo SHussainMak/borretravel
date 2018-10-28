@@ -4,7 +4,7 @@ const compression =  require('compression');
 const morgan = require('morgan');
 const path = require('path');
 
-process.env.NODE_ENV = 'production';
+// process.env.NODE_ENV = 'production';
 
 const normalizePort = port => parseInt(port , 10);
 const PORT = normalizePort(process.env.PORT || 5000);
